@@ -1224,7 +1224,7 @@ body[data-theme="light"] .site-footer {
     right: 0;
     flex-direction: column;
     gap: 0;
-    background: rgba(252, 246, 235, 0.96);
+    background: var(--surface);
     backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--border);
     padding: 1rem 0;
