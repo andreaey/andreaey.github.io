@@ -1238,6 +1238,10 @@ body[data-theme="light"] .site-footer {
     background: rgba(252, 246, 235, 0.96);
   }
 
+  body[data-theme="dark"] .nav-links {
+    background: var(--surface);
+  }
+
   .nav-links.is-open {
     transform: translateY(0);
     opacity: 1;
